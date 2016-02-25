@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+echo "Installing Dependencies..."
+
 # install dependencies using pip
 pip install numpy
 pip install pandas
@@ -11,4 +13,4 @@ pip install jupyter
 # reset bash profile
 . ~/.bash_profile
 
-echo "Requirements installed."
+echo "Dependencies installed."

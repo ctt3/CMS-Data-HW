@@ -191,7 +191,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[330]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
@@ -217,12 +217,12 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[331]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">medicaid_summary</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;C:/Users/Charlie/Desktop/MSIS2012 Table17.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="s2">&quot;STATE&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">medicaid_summary</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./MSIS2012 Table17.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="s2">&quot;STATE&quot;</span><span class="p">)</span>
 <span class="n">medicaid_summary</span> <span class="o">=</span> <span class="n">medicaid_summary</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1">#Transpose, exclude total and empty row</span>
-<span class="n">medicaid_summary</span><span class="p">[</span><span class="s1">&#39;TOTAL&#39;</span><span class="p">]</span>
+<span class="k">print</span> <span class="n">medicaid_summary</span><span class="p">[</span><span class="s1">&#39;TOTAL&#39;</span><span class="p">]</span>
 </pre></div>
 
 </div>
@@ -233,10 +233,8 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[331]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>CAPITATED CARE SERVICES                                         95909067464
 CLINIC SERVICES                                                 10433867525
 DENTAL SERVICES                                                  3332456869
@@ -255,9 +253,9 @@ PHYSICIAN SERVICES                                               8301617422
 PERSONAL SUPPORT SERVICES                                       22072137802
 STERILIZATION SERVICES                                             94016257
 SERVICES NOT IDENTIFIED                                           566310761
-Name: TOTAL, dtype: float64</pre>
+Name: TOTAL, dtype: float64
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -343,10 +341,10 @@ Name: TOTAL, dtype: float64</pre>
 
 
 
-<div id="493e91e5-397a-48f6-838e-872035adff6a"></div>
+<div id="d6b91f12-cc5b-4d77-9430-604833ab0b24"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#493e91e5-397a-48f6-838e-872035adff6a');
+var element = $('#d6b91f12-cc5b-4d77-9430-604833ab0b24');
 
 (function(global) {
   function now() {
