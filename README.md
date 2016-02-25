@@ -43,7 +43,7 @@
 
 ### Installing Dependencies Manually
 1. **Python 2.7**
-  * Python 2.7 can be downloaded [here.](https://www.python.org/downloads/release/python-2710/ "Python 2.7 Download")
+  * Python 2.7 can be downloaded <a href="https://www.python.org/downloads/release/python-2710/" title="Python 2.7 Download" target="_blank">HERE.</a>
 2. **PokItDok**
   1. Run the following command in terminal: "pip install pokitdok"
 3. **Jupyter**
