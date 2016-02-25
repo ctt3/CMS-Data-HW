@@ -33,7 +33,7 @@
 ### Running the Visualization standalone
 1. Open a terminal window.
 2. Navigate to "/CMS-Data-HW/Data Visualization/"
-3. Run the following command: "python cms_data_visualization"
+3. Run the following command: "python cms_data_visualization.py"
 4. The generated html should open automatically in your default browser and display the Visualization.
 
 # Python Web Client
@@ -57,5 +57,5 @@
 ### Running the Web Client standalone
 1. Open a terminal window.
 2. Navigate to "/CMS-Data-HW/Web Client/"
-3. Run the following command: "python web_client_pokitdok_api"
+3. Run the following command: "python web_client_pokitdok_api.py"
 4. The generated html should open automatically in your default browser and display the copay/deductible information.
