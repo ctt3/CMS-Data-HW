@@ -58,4 +58,4 @@
 1. Open a terminal window.
 2. Navigate to "/CMS-Data-HW/Web Client/"
 3. Run the following command: "python web_client_pokitdok_api"
-4. The copay/deductible information will be output to the terminal window.
+4. The generated html should open automatically in your default browser and display the copay/deductible information.
