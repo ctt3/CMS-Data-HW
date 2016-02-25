@@ -1,19 +1,29 @@
+# Quick Start
+ 1. Install Python 2.7 <a href="https://www.python.org/downloads/release/python-2710/" title="Python 2.7 Download" target="_blank">HERE.</a>
+ 1. Open a terminal.
+   * If you haven't already, run "git clone https://github.com/ctt3/CMS-Data-HW.git" to clone this repo.
+ 2. Navigate to "/CMS-Data-HW/"
+ 3. Run the following command: "sh install_dependencies.sh"
+   * This script should install all necessary dependencies.
+
 # CMS Data Visualization
 
 ### Viewing the Visualization execution step by step
-1. Use your browser of choice to open "Data Visualization/cms_data_visualization.html"
+1. Use your browser of choice to open "/CMS-Data-HW/Data Visualization/cms_data_visualization.html"
 
-### Installing Dependencies
+### Installing Dependencies Manually
 1. **Python 2.7**
-  * Python 2.7 can be downloaded [here.](https://www.python.org/downloads/release/python-2710/ "Python 2.7 Download")
+  * Python 2.7 can be downloaded <a href="https://www.python.org/downloads/release/python-2710/" title="Python 2.7 Download" target="_blank">HERE.</a>
 2. **NumPy**
   1. Run the following command in terminal: "pip install numpy"
 3. **Pandas**
   1. Run the following command in terminal: "pip install pandas"
 4. **Bokeh**
-  1. Run the following command in terminal: "pip install pandas"
+  1. Run the following command in terminal: "pip install bokeh"
 3. **IPython**
   1. Run the following command in terminal: "pip install ipython"
+4. **Jupyter**
+  1. Run the following command in terminal: "pip install jupyter"
 
 ### Running the Visualization in Jupyter
 1. Run the following command in terminal: "jupyter notebook"
@@ -28,15 +38,16 @@
 
 # Python Web Client
 
-### Viewing the code execution step by step
-1. Use your browser of choice to open "Web Client/web_client_pokitdok_api.html"
+### Viewing the Web Client execution step by step
+1. Use your browser of choice to open "/CMS-Data-HW/Web Client/web_client_pokitdok_api.html"
 
-### Installing Dependencies
+### Installing Dependencies Manually
 1. **Python 2.7**
-  * Python 2.7 can be downloaded [here.](https://www.python.org/downloads/release/python-2710/ "Python 2.7 Download")
+  * Python 2.7 can be downloaded <a href="https://www.python.org/downloads/release/python-2710/" title="Python 2.7 Download" target="_blank">HERE.</a>
 2. **PokItDok**
-  1. Open a terminal window.
-  2. Run the following command: "pip install pokitdok"
+  1. Run the following command in terminal: "pip install pokitdok"
+3. **Jupyter**
+  1. Run the following command in terminal: "pip install jupyter"
 
 ### Running the Web Client in Jupyter
 1. Run the following command in terminal: "jupyter notebook"
